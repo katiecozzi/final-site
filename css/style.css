@@ -1,0 +1,166 @@
+/*====================
+Universal Styling
+======================*/
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+header {
+    background-color: white;
+    color: #F0C9C6;
+    padding: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+header a{
+color: #F0C9C6;
+text-decoration: none;
+position: fixed;
+width: 100%;
+top: 25px;
+font-family: sans-serif;
+}
+
+header li{
+  display: inline-block;
+  margin: 0 70px 0 0px;
+}
+
+nav {
+    display: inline-block;
+}
+
+header nav a:hover{
+  color: #4E6C81
+}
+
+main.container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.icon{
+  padding-right: 20px;
+}
+
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
+span.Rabbit {
+    font-weight: bold;
+    font-size: 20px;
+    color: #83a58d;
+    display: block;
+}
+
+img.Bunny {
+    float: left;
+    margin: 0 20px 0 0;
+
+}
+
+.bottom p::first-letter{
+  font-size: 24px;
+  font-style: italic;
+}
+
+
+/*==================
+  Hover Styling
+  ==================*/
+
+
+img.Bunny:hover{
+  opacity: .1;
+  transition: 2s
+}
+
+img.bunny2:hover{
+  opacity: .1;
+  transition: 2s
+}
+
+
+/*==================
+  Position Section Styling
+  ==================*/
+
+  section.Banner.Header {
+    position: relative;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  padding: 150px 50px;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+/*==================
+  Animation Styling
+  ==================*/
+
+  .pop-bun{
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    animation-name: pop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+  }
+
+@keyframes pop {
+0% {left: -150px;}
+50% {left: 15px;}
+100% {left: -150px;}
+}
+
+/*==================
+  Form Styling
+  ==================*/
+
+.contact-form{
+  background-color: #f0c9c6;
+  padding: 20px;
+  max-width: 400px;
+  color: white;
+  font-family: sans-serif;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.label_input_wrap{
+  display: block;
+}
+
+.submit input{
+  background-color: #4e6c81;
+  color: white;
+  font-family: sans-serif;
+  padding: 5px;
+  display: inline;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.input_section{
+  margin-bottom: 10px;
+}
+
+input{
+  padding: 5px 10px;
+  width: 350px;
+  margin: auto;
+}

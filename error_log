@@ -1,0 +1,5 @@
+[26-Jul-2021 00:17:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Form has a deprecated constructor in /home/qt8vkro0yz64/public_html/form/form.class.php on line 14
+[26-Jul-2021 00:17:38 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/qt8vkro0yz64/public_html/form/form.class.php on line 132
+[26-Jul-2021 00:17:38 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/qt8vkro0yz64/public_html/form/form.class.php on line 138
+[26-Jul-2021 00:17:38 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/qt8vkro0yz64/public_html/form/form.class.php on line 138
+[26-Jul-2021 00:17:38 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/qt8vkro0yz64/public_html/form/form.class.php on line 138
