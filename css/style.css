@@ -73,6 +73,10 @@ img.Bunny {
   font-style: italic;
 }
 
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
 
 /*==================
   Hover Styling
@@ -101,9 +105,10 @@ img.bunny2:hover{
 h1 {
   position: absolute;
   color: white;
-  padding: 150px 50px;
+  padding:200px 50px;
   font-size: 60px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Raleway', sans-serif;
+
 
 }
 
@@ -111,21 +116,6 @@ h1 {
   Animation Styling
   ==================*/
 
-  .pop-bun{
-    position: absolute;
-    top: 600px;
-    left: 0px;
-    animation-name: pop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 5;
-  }
-
-@keyframes pop {
-0% {left: -150px;}
-50% {left: 15px;}
-100% {left: -150px;}
-}
 
 /*==================
   Form Styling
