@@ -23,13 +23,13 @@ header a{
 color: #4E6C81;
 text-decoration: none;
 width: 100%;
-top: 10px;
+top: 5px;
 font-family: sans-serif;
 }
 
 header li{
   display: inline-block;
-  margin: 0 80px 0 0px;
+  margin: 0 60px 0 0px;
 }
 
 nav {
@@ -56,39 +56,53 @@ p{
   font-family: 'Raleway', sans-serif;
 }
 
-span.Rabbit {
-    font-weight: bold;
-    font-size: 20px;
-    color: #83a58d;
-    display: block;
-}
-
-img.Bunny {
-    float: left;
-    margin: 0 20px 0 0;
-
-}
 
 .bottom p::first-letter{
   font-size: 24px;
   font-style: italic;
 }
-
 h2 {
   font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: white;
 }
 
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #4E6C81;
+  padding: 20px;
+}
+
+footer{
+  background-color: #D1D2D4
+
+}
 
 /*==================
   Hover Styling
   ==================*/
 
+.bottomimage:hover{
+    opacity: .1;
+    transition: 2s
+  }
 
+  .topimage:hover{
+      opacity: .1;
+      transition: 2s
+    }
 
+.middleimage:hover{
+        opacity: .1;
+        transition: 2s
+      }
 
 
 /*==================
-  Position Section Styling
+  Position Section Styling HomePage
   ==================*/
 
 section.Banner.Header {
@@ -118,9 +132,8 @@ font-size: 50px;
 
 }
 
-section .toppart{
-  max-width: 600px;
-  padding-top: 20px;
+section.topart, .middleart, .bottomart{
+  padding: 50px 0 50px 0;
 }
 
 
@@ -129,20 +142,20 @@ section .toppart{
   background-color: #4E6C81;
   color: white;
   text-align: center;
-  margin-left: 400px;
+  margin-left: 425px;
   margin-top: 40px;
   padding: 75px;
-  max-width: 200px;
+  max-width: 250px;
 }
 .topimage{
   position: absolute;
-  margin-left: 200px;
+  margin-left: 175px;
 }
 
 
 .middleimage{
   position: absolute;
-  margin-left: 200px;
+  margin-left: 175px;
 }
 
 .middle{
@@ -150,15 +163,15 @@ section .toppart{
   background-color: #4E6C81;
   color: white;
   text-align: center;
-  margin-left: 400px;
+  margin-left: 425px;
   margin-top: 60px;
   padding: 75px;
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .bottomimage{
   position: absolute;
-  margin-left: 200px;
+  margin-left: 175px;
 }
 
 .bottom{
@@ -166,10 +179,10 @@ section .toppart{
   background-color: #4E6C81;
   color: white;
   text-align: center;
-  margin-left: 400px;
-  margin-top: 80px;
+  margin-left: 425px;
+  margin-top: 60px;
   padding: 75px;
-  max-width: 200px;
+  max-width: 250px;
 }
 .aboutbutton, .artbutton, .digitalbutton{
   padding: 20px;
@@ -180,6 +193,42 @@ section .toppart{
   text-align: center;
   }
 
+button{
+  padding: 20px;
+  background-color: white;
+  color: #4E6C81;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button:hover{
+  color: #d1a7c4
+}
+
+.brands{
+  padding-top: 50px;
+}
+
+
+
+/*==================
+  About Page Styling
+  ==================*/
+section.abouttop1, .about2 {
+      padding: 10px 100px 200px 50px;
+  }
+
+.headshot {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.drawing {
+    float: right;
+    margin: 0 0 0 20px;
+
+}
 /*==================
   Animation Styling
   ==================*/
