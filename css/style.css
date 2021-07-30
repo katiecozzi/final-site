@@ -84,22 +84,14 @@ h2 {
   ==================*/
 
 
-img.Bunny:hover{
-  opacity: .1;
-  transition: 2s
-}
 
-img.bunny2:hover{
-  opacity: .1;
-  transition: 2s
-}
 
 
 /*==================
   Position Section Styling
   ==================*/
 
-  section.Banner.Header {
+section.Banner.Header {
     position: relative;
 }
 
@@ -125,35 +117,68 @@ font-size: 50px;
   font-size: 20px;
 
 }
+
+section .toppart{
+  max-width: 600px;
+  padding-top: 20px;
+}
+
+
 .top{
   position: relative;
   background-color: #4E6C81;
   color: white;
-  margin: 100px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 40px;
   padding: 75px;
+  max-width: 200px;
 }
 .topimage{
   position: absolute;
+  margin-left: 200px;
 }
-
-
 
 
 .middleimage{
-  position: relative;
+  position: absolute;
+  margin-left: 200px;
 }
 
 .middle{
-  position: absolute;
+  position: relative;
+  background-color: #4E6C81;
+  color: white;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 60px;
+  padding: 75px;
+  max-width: 200px;
 }
 
 .bottomimage{
-  position: relative;
+  position: absolute;
+  margin-left: 200px;
 }
 
 .bottom{
-  position: absolute;
+  position: relative;
+  background-color: #4E6C81;
+  color: white;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 80px;
+  padding: 75px;
+  max-width: 200px;
 }
+.aboutbutton, .artbutton, .digitalbutton{
+  padding: 20px;
+  background-color: white;
+  color: #4E6C81;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+  }
 
 /*==================
   Animation Styling
