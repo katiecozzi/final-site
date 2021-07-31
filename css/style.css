@@ -146,16 +146,22 @@ section.topart, .middleart, .bottomart{
   margin-top: 40px;
   padding: 75px;
   max-width: 250px;
+  animation: flyinleft;
+  animation-duration: 2s;
 }
 .topimage{
   position: absolute;
   margin-left: 175px;
+  animation: flyinright;
+  animation-duration: 2s;
 }
 
 
 .middleimage{
   position: absolute;
   margin-left: 175px;
+  animation: flyinright;
+  animation-duration: 2s;
 }
 
 .middle{
@@ -167,11 +173,15 @@ section.topart, .middleart, .bottomart{
   margin-top: 60px;
   padding: 75px;
   max-width: 250px;
+  animation: flyinleft;
+  animation-duration: 2s;
 }
 
 .bottomimage{
   position: absolute;
   margin-left: 175px;
+  animation: flyinright;
+  animation-duration: 2s;
 }
 
 .bottom{
@@ -183,6 +193,8 @@ section.topart, .middleart, .bottomart{
   margin-top: 60px;
   padding: 75px;
   max-width: 250px;
+  animation: flyinleft;
+  animation-duration: 2s;
 }
 .aboutbutton, .artbutton, .digitalbutton{
   padding: 20px;
@@ -233,6 +245,26 @@ section.abouttop1, .about2 {
   Animation Styling
   ==================*/
 
+
+@keyframes flyinleft {
+  from{
+    transform: translateX(175px);
+  }
+
+  to{
+    transform: translateX(0px);
+  }
+}
+
+@keyframes flyinright {
+  from{
+    transform: translateX(-175px);
+  }
+
+  to{
+    transform: translateX(0px);
+  }
+}
 
 /*==================
   Form Styling
