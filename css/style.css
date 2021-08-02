@@ -82,6 +82,20 @@ footer{
 }
 
 /*==================
+  Gallery Styling
+  ==================*/
+
+section.gallery img{
+  width: 250px;
+}
+
+section.gallery{
+  max-width: 800px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+/*==================
   Hover Styling
   ==================*/
 
