@@ -77,9 +77,24 @@ h3 {
 }
 
 footer{
-  background-color: #D1D2D4
-
+  background-color: #D1D2D4;
+  width: 100%;
+  padding: 25px 100px
 }
+
+footer li{
+  display: inline-block;
+}
+
+.footercons ul{
+  margin-left: 300px;
+}
+
+.footernote{
+  text-align: right;
+  margin-left: 350px;
+}
+
 
 /*==================
   Gallery Styling
